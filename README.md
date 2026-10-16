@@ -1,4 +1,4 @@
-# Loungerie · Vitrine de Ocasião
+# Programa Vitrine de Ocasião · Loungerie
 
 Apresentação da 75 LAB publicada em https://projetos.75lab.com.br/loungerie-vitrine-de-ocasiao/
 
