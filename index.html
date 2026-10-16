@@ -258,9 +258,17 @@ html.mob .l11 .vis{margin:0 0 20px}
 <div class="lay l4"><div class="tx"><div class="kick st" style="--i:0">Nossa história juntos</div><h2 class="st" style="--i:1">A gente já conhece suas lojas por dentro.</h2>
 <div class="big2 st" style="--i:2"><div><div class="num" data-conta="8">8</div><span>lojas visitadas</span></div><div><div class="num" data-conta="25">25</div><span>equipamentos medidos no safari</span></div></div></div>
 <div class="rt st" style="--i:2"><div class="mos3" data-bc-manter=""><img class="z" loading="lazy" src="assets/08-oficina-1792162636317-safari-vila-olimpia-vitrine-p7.jpg" alt="Vitrine de loja Loungerie com manequins e painel da campanha" style="object-position:center 40%"><img class="z" loading="lazy" src="assets/09-icina-1792162751704-safari-vila-olimpia-modulo-parede-p7.jpg" alt="Módulo de parede de loja Loungerie com cabides" style="object-position:center 45%"><img class="z" loading="lazy" src="assets/10-oficina-1792162639622-safari-tatuape-mesa-expositora-p10.jpg" alt="Mesa expositora e totem em loja Loungerie" style="object-position:center 60%"></div>
-<ul class="tl"><li><b>Loja JK</b> · projeto da loja e piloto de teto</li><li><b>Retrofit de 5 lojas</b></li><li><b>Vitrine de Dia das Mães</b></li><li><b>Shopping Plaza Recife</b></li><li><b>Safari com o cliente</b> · 8 lojas visitadas, 25 equipamentos medidos</li><li><b>Roll out de adesivagem</b> · orçado</li></ul></div>
+<div class="rel" data-bc-manter="" aria-label="Linha do tempo da relação entre 75 LAB e Loungerie"><div class="rel-linha"></div><ol class="rel-trilha">
+<li style="--k:0"><i>1</i><div><b>Loja JK</b><span>projeto da loja e piloto de teto</span></div></li>
+<li style="--k:1"><i>2</i><div><b>Retrofit de 5 lojas</b><span>a rede renovada por dentro</span></div></li>
+<li style="--k:2"><i>3</i><div><b>Vitrine de Dia das Mães</b><span>a primeira vitrine de ocasião</span></div></li>
+<li style="--k:3"><i>4</i><div><b>Shopping Plaza Recife</b><span>a marca em outra praça</span></div></li>
+<li style="--k:4"><i>5</i><div><b>Safari com o cliente</b><span><em data-conta="8">8</em> lojas visitadas · <em data-conta="25">25</em> equipamentos medidos</span></div></li>
+<li style="--k:5"><i>6</i><div><b>Roll out de adesivagem</b><span>orçado para a rede</span></div></li>
+<li class="prox" style="--k:6"><i>&#8594;</i><div><b>Programa Vitrine de Ocasião</b><span>o próximo passo, juntos</span></div></li>
+</ol></div></div>
 <div class="agenda"><span>Leitura</span><span>Ideia</span><span>Estratégia</span><span>Solução</span><span>Cronograma</span><span>Medição</span></div></div>
-<aside class="roteiro" hidden>A gente não chega do zero. Fizemos a Loja JK e um piloto de teto nela, o retrofit de cinco lojas, a vitrine de Dia das Mães e o Shopping Plaza Recife. Também orçamos a adesivagem da rede. No safari, visitamos oito lojas e medimos vinte e cinco equipamentos. Conhecemos suas lojas por dentro; as vitrines, vamos medir juntos no começo do programa. Hoje o caminho é este: leitura, ideia, estratégia, solução, cronograma e medição.</aside></section>
+<aside class="roteiro" hidden>A gente não chega do zero. Fizemos a Loja JK e um piloto de teto nela, o retrofit de cinco lojas, a vitrine de Dia das Mães e o Shopping Plaza Recife. Também orçamos a adesivagem da rede. No safari, visitamos oito lojas e medimos vinte e cinco equipamentos. Conhecemos suas lojas por dentro; as vitrines, vamos medir juntos no começo do programa. Do lado direito está a nossa história em sequência, projeto a projeto, e ela termina no próximo passo: o Programa Vitrine de Ocasião. Hoje o caminho é este: leitura, ideia, estratégia, solução, cronograma e medição.</aside></section>
 <section class="slide" data-t="Leitura do desafio"><div class="hdr"><img src="assets/01-oficina-1792156909879-logo-transp.png" alt="Logo Loungerie"><i></i><img class="l75" src="assets/02-oficina-1792156955454-logo75-black.png" alt="Logo 75 LAB"></div>
 <div class="lay l5"><div class="kick st" style="--i:0">Leitura do desafio</div><h2 class="st" style="--i:1">A marca mudou em setembro; a maioria das vitrines ainda não sabe disso.</h2><p class="ap st" style="--i:2">A loja nova chega aos poucos, mas 121 vitrines falam com a cliente hoje.</p>
 <div class="dg st" style="--i:3">
@@ -483,6 +491,29 @@ html.bc-cel #bc-nav.bc-trilho b{display:block;width:3px;border-radius:2px;backgr
 @media (prefers-reduced-motion:reduce){html.bc-cel #bc-nav i{transition:none}}
 /* componente que o deck pede para manter como está no celular (data-bc-manter): só não pode passar da largura */
 html.bc-cel [data-bc-tela] [data-bc-manter]{max-width:100%!important;overflow-x:auto}
+
+/* Tela 4: infográfico animado da relação 75 LAB e Loungerie (pedido do Caique, 16/10/2026) */
+.rel{position:relative;padding-left:46px;margin-top:2px}
+.rel-linha{position:absolute;left:17px;top:14px;bottom:22px;width:3px;background:linear-gradient(var(--malva),var(--pink));border-radius:2px;transform-origin:top}
+.rel-trilha{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:7px}
+.rel-trilha li{position:relative;display:flex;align-items:center;gap:14px;min-height:34px}
+.rel-trilha li i{position:absolute;left:-46px;width:34px;height:34px;border-radius:50%;background:#fff;border:3px solid var(--pink);color:var(--pink);font:700 15px/28px 'Jost',sans-serif;font-style:normal;text-align:center;box-shadow:0 2px 8px rgba(175,0,100,.15)}
+.rel-trilha li b{display:block;font-size:18px;line-height:1.15;color:var(--ink)}
+.rel-trilha li span{display:block;font-size:14px;line-height:1.25;color:var(--mut)}
+.rel-trilha li span em{font-style:normal;font-weight:700;color:var(--pink)}
+.rel-trilha li.prox{margin-top:4px;padding:8px 14px;border-radius:999px;background:var(--pink)}
+.rel-trilha li.prox i{background:var(--pink);color:#fff;border-color:#fff;box-shadow:0 0 0 0 rgba(175,0,100,.5)}
+.rel-trilha li.prox b,.rel-trilha li.prox span{color:#fff}
+.slide.on .rel-linha{animation:relLinha 1.6s cubic-bezier(.3,.7,.2,1) .35s both}
+.slide.on .rel-trilha li{animation:relEntra .55s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--k)*210ms + 450ms)}
+.slide.on .rel-trilha li i{animation:relPonto .5s cubic-bezier(.3,1.6,.5,1) both;animation-delay:calc(var(--k)*210ms + 450ms)}
+.slide.on .rel-trilha li.prox i{animation:relPonto .5s cubic-bezier(.3,1.6,.5,1) both,relPulso 1.8s ease-out 2.4s infinite;animation-delay:calc(var(--k)*210ms + 450ms),2.4s}
+@keyframes relLinha{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes relEntra{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+@keyframes relPonto{from{transform:scale(0)}to{transform:scale(1)}}
+@keyframes relPulso{0%{box-shadow:0 0 0 0 rgba(175,0,100,.55)}70%{box-shadow:0 0 0 14px rgba(175,0,100,0)}100%{box-shadow:0 0 0 0 rgba(175,0,100,0)}}
+@media (prefers-reduced-motion:reduce){.slide.on .rel-linha,.slide.on .rel-trilha li,.slide.on .rel-trilha li i{animation:none}}
+html:not(.mob) .l4 .rt .mos3{height:230px}
 </style>
 <script data-base-deck="1.0.0">
 /* Base de deck da agência 75 LAB (lado do navegador). Injetada pelo motor em todo deck e one-pager (deck-base.ts).
